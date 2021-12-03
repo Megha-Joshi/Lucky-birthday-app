@@ -14,9 +14,9 @@ function checkIfBirthdateIsLucky() {
 
 
 		if (sum % ln === 0) {
-			opMessage.innerText = "Congrats 🤩🤩 You have a lucky birthdate";
+			opMessage.innerText = "Congrats 🤩 You have a lucky birthdate";
 		} else {
-			opMessage.innerText = "Sorry 😐😐 Not a lucky birthdate";
+			opMessage.innerText = "Sorry 😐 Not a lucky birthdate";
 		}
 	} else {
 		opMessage.innerText = "Please fill both of the fields or maybe you entered lucky number as less than 1."
